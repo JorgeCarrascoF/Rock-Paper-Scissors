@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R,p,s!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="header">
+            <span id="title">Rock, paper, scissors!</span>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="game">
+            <div class="left-column">
+                <img src="img/dog.png" id="player" alt="">
+                <div class="bar">
+                    <div id="left-1" class="progress"></div>
+                    <div id="left-2" class="progress"></div>
+                    <div id="left-3" class="progress"></div>
+                    <div id="left-4" class="progress"></div>
+                    <div id="left-5" class="progress"></div>
+                </div>
+            </div>
+            <div class="center-column">
+                <div class="counter">
+                    <span id="playerCounter">0</span>
+                    <span>-</span>
+                    <span id="computerCounter">0</span>
+                </div>
+                <p id="text">Let's play!</p>
+                <p id="result"></p>
+            </div>
+            <div class="right-column">
+                <img src="img/cat.jpg" id="computer" alt="">
+                <div class="bar">
+                    <div id="right-1" class="progress"></div>
+                    <div id="right-2" class="progress"></div>
+                    <div id="right-3" class="progress"></div>
+                    <div id="right-4" class="progress"></div>
+                    <div id="right-5" class="progress"></div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+    </div>
+    <div class="end-window">
+        <p id="endMessage">Congratulations!</p>
+        <button id="playAgain">Play again</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
